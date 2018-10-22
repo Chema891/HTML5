@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1>Registrate</h1>
+
+    <form method="POST" action="recepcionform.html">
+        <div>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Introduce tu nombre" required minlength="3"
+                maxlength="30" pattern="[a-zA-Z]*">
+
+        </div>
+
+        <!--div>(Label [for="email"]{email:}+input[id=email placeholder="introduce tu emnail"])-->
+
+        <div>
+            <label for="Email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Introduce tu email" required>
+        </div>
+
+        <div>
+            <label for="Edad">Edad:</label>
+            <input type="number" name="edad" id="edad" placeholder="Introduce tu edad" min="14" max="99">
+        </div>
+
+        <div>
+
+            <h3>Sexo</h3>
+            <div>
+                <input type="radio" name="sexo" id="M" value="1"> <label for="M">M</label>
+            </div>
+
+            <div>
+                <input type="radio" name="sexo" id="f" value="2"> <label for="f">F</label>
+            </div>
+            <div>
+                <input type="radio" name="sexo" value="3"> <label for="h">Hermafrodita</label>
+            </div>
+
+
+
+        </div>
+
+        <div>
+            <h3>Colores favoritos</h3>
+
+            <div>
+                <input type="checkbox" name="color" id="Rojo" value="1"> <label for="">Rojo</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="color" id="Azul Marino" value="2"> <label for="">Azul Marinp</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="color" id="Verde" value="3"> <label for="">Verde</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="color" id="Amarillo" value="4"> <label for="x">Amarillo</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="color" id="Rosa" value="5"><label for="">Rosa</label>
+            </div>
+
+            <div>
+                <input type="checkbox" name="color" id="Azul claro" value="6"><label for="">Azul claro</label>
+            </div>
+
+        </div>
+
+        <!--div>(label[id=pais]{Pais:}+select[Name=pais id=pais])-->
+        <div>
+            <label for="pais" id="pais">Pais</label>
+            <select name="pais" id="pais">
+                <option value="0" disabled selected>Eliger pais</option>
+                <option value="123">Noruega</option>
+                <option value="34">España</option>
+                <option value="1">EEUU</option>
+
+            </select>
+
+        </div>
+
+
+        <!-- div>(label[for=cuentame]{cuentame algo de ti}+textarea[id=cuantame]) -->
+        
+        <div>
+            <label for="cuentame" class="aloancho">Cuentame algo de ti:</label>
+            <textarea name="cuentame" id="cuentame" placeholder="Di algo interesante"></textarea>
+
+        </div>
+
+        <div>
+            <button>Registrate</button>
+        </div>
+
+
+    </form>
+
+</body>
+
+</html>

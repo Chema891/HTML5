@@ -1,0 +1,72 @@
+body{
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+#myform{
+    width: 40%;
+    margin: auto;
+    border: 1px solid black;
+    background: #333333;
+    border-radius: 5%;
+}
+
+input{
+    border-radius: 20px;
+    margin: 10px;
+    padding: 0%;
+    border: none;
+    width: 70%;    
+}
+
+button{
+    border: none; 
+    padding: 5px 20px; 
+    background-color: green;
+    font-size: 2em;
+}
+
+label{
+    width: 20px;
+    border-radius: 15px;
+}
+
+input{}
+a{color: red}
+
+#nombre{
+    background-image: url(./nombre.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 10 px;
+    padding-left: 40px;
+}
+
+#movil{
+    background-image: url(./telefono.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 10 px;
+    padding-left: 40px;
+}
+
+#email{
+    background-image: url(./gmail.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 10 px;
+    padding-left: 40px;
+}
+
+#Contraseña{
+    background-image: url(./contraseña.png);
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 10 px;
+    padding-left: 40px;
+}
+

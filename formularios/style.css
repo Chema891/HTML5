@@ -1,0 +1,20 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 14px;
+    color: black;
+    background: rebeccapurple;
+}
+
+label{width: 80px;display: inline-block;}
+    label.aloancho{width: auto;display: block;}
+
+input[type=text], input[type=number], input[type=email] {width: 200px; border: 2px blue; padding: 5px;}
+
+button {
+    padding: 5px;border-radius: 5px; background: black; color: white;
+    border: none;
+    box-shadow: 2px 2px 2px 5px; color: green
+}
+
+form > div {margin: 10px}
+form > textarea {width: 100%;height: 300px;}
