@@ -1,0 +1,11 @@
+body {background-color: beige; text-align: center}
+
+body > section > article.azul {background: blue; width: 200px; height: 200px; display:inline-block}
+body > section > article.verde {background:green; width: 200px; height: 200px; display:inline-block; position: up}
+body > section > article.rojo {background: red; width: 200px; height: 200px; display:inline-block}
+
+#rarito {
+    width: 300px; height: 100px;
+    color: rgb(223, 223, 117);
+border-bottom: 2px solid black; 
+}
